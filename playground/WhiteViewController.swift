@@ -15,6 +15,10 @@ class WhiteViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func AlertButtonDidPushed(_ sender: UIButton) {
+        showAlert()
+    }
+    
     func showAlert() {
         let message = "Alert 내용"
         

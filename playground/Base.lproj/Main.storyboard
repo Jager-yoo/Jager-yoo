@@ -97,6 +97,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Alert 발동!"/>
+                                <connections>
+                                    <action selector="AlertButtonDidPushed:" destination="RtD-fn-KOQ" eventType="touchUpInside" id="aN7-1L-e1u"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lch-tx-epG"/>
