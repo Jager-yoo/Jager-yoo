@@ -88,14 +88,29 @@
                     <view key="view" contentMode="scaleToFill" id="YxE-2d-P5L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUF-VP-ktg">
+                                <rect key="frame" x="132" y="398" width="150" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="S4L-Rr-EDv"/>
+                                    <constraint firstAttribute="width" constant="150" id="cMM-bD-IXM"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Alert 발동!"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lch-tx-epG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zUF-VP-ktg" firstAttribute="centerX" secondItem="YxE-2d-P5L" secondAttribute="centerX" id="JeS-7S-mvm"/>
+                            <constraint firstItem="zUF-VP-ktg" firstAttribute="centerY" secondItem="YxE-2d-P5L" secondAttribute="centerY" id="zrN-fZ-0r7"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="White" id="jYB-MU-HUi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eDd-tn-BfU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2636" y="76"/>
+            <point key="canvasLocation" x="2634.7826086956525" y="75.669642857142847"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6ec-su-CIT">
