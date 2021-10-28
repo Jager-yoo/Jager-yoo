@@ -11,7 +11,7 @@ class IndigoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Indigo Screen"
         // Do any additional setup after loading the view.
     }
     
