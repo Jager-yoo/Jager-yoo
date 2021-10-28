@@ -43,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="913.04347826086962" y="76.339285714285708"/>
         </scene>
-        <!--Indigo View Controller-->
+        <!--BackButton-->
         <scene sceneID="TU3-9u-h0M">
             <objects>
                 <viewController id="xoi-h6-Smm" customClass="IndigoViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,7 +53,7 @@
                         <viewLayoutGuide key="safeArea" id="1ob-Tf-44Y"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ZOy-Ee-tOP"/>
+                    <navigationItem key="navigationItem" title="BackButton" id="ZOy-Ee-tOP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="os1-Uk-c02" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -64,9 +64,13 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xqx-na-5Fz" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZDr-zy-D3A">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ZDr-zy-D3A">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
