@@ -11,7 +11,7 @@ class OrangeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Orange Screen"
+        
         // Do any additional setup after loading the view.
     }
     

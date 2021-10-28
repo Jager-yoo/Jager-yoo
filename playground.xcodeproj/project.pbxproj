@@ -15,6 +15,7 @@
 		C1653776272AC2BB0009A8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1653774272AC2BB0009A8E2 /* LaunchScreen.storyboard */; };
 		C1941C7D272AC7F700C65E52 /* IndigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1941C7C272AC7F700C65E52 /* IndigoViewController.swift */; };
 		C1941C7F272AC83000C65E52 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1941C7E272AC83000C65E52 /* OrangeViewController.swift */; };
+		C1941C81272AD15000C65E52 /* WhiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1941C80272AD15000C65E52 /* WhiteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C1653777272AC2BB0009A8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1941C7C272AC7F700C65E52 /* IndigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndigoViewController.swift; sourceTree = "<group>"; };
 		C1941C7E272AC83000C65E52 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		C1941C80272AD15000C65E52 /* WhiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				C165376D272AC2B80009A8E2 /* ViewController.swift */,
 				C1941C7E272AC83000C65E52 /* OrangeViewController.swift */,
 				C1941C7C272AC7F700C65E52 /* IndigoViewController.swift */,
+				C1941C80272AD15000C65E52 /* WhiteViewController.swift */,
 				C165376F272AC2B80009A8E2 /* Main.storyboard */,
 				C1653772272AC2BB0009A8E2 /* Assets.xcassets */,
 				C1653774272AC2BB0009A8E2 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				C1941C7F272AC83000C65E52 /* OrangeViewController.swift in Sources */,
 				C165376A272AC2B80009A8E2 /* AppDelegate.swift in Sources */,
 				C1941C7D272AC7F700C65E52 /* IndigoViewController.swift in Sources */,
+				C1941C81272AD15000C65E52 /* WhiteViewController.swift in Sources */,
 				C165376C272AC2B80009A8E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

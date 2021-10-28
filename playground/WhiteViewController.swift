@@ -1,5 +1,5 @@
 //
-//  IndigoViewController.swift
+//  WhiteViewController.swift
 //  playground
 //
 //  Created by 유재호 on 2021/10/28.
@@ -7,11 +7,11 @@
 
 import UIKit
 
-class IndigoViewController: UIViewController {
+class WhiteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
     
