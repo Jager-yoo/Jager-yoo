@@ -13,6 +13,8 @@
 		C1653771272AC2B80009A8E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C165376F272AC2B80009A8E2 /* Main.storyboard */; };
 		C1653773272AC2BB0009A8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1653772272AC2BB0009A8E2 /* Assets.xcassets */; };
 		C1653776272AC2BB0009A8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1653774272AC2BB0009A8E2 /* LaunchScreen.storyboard */; };
+		C1941C7D272AC7F700C65E52 /* IndigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1941C7C272AC7F700C65E52 /* IndigoViewController.swift */; };
+		C1941C7F272AC83000C65E52 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1941C7E272AC83000C65E52 /* OrangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C1653772272AC2BB0009A8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1653775272AC2BB0009A8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1653777272AC2BB0009A8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1941C7C272AC7F700C65E52 /* IndigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndigoViewController.swift; sourceTree = "<group>"; };
+		C1941C7E272AC83000C65E52 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C1653769272AC2B80009A8E2 /* AppDelegate.swift */,
 				C165376B272AC2B80009A8E2 /* SceneDelegate.swift */,
 				C165376D272AC2B80009A8E2 /* ViewController.swift */,
+				C1941C7E272AC83000C65E52 /* OrangeViewController.swift */,
+				C1941C7C272AC7F700C65E52 /* IndigoViewController.swift */,
 				C165376F272AC2B80009A8E2 /* Main.storyboard */,
 				C1653772272AC2BB0009A8E2 /* Assets.xcassets */,
 				C1653774272AC2BB0009A8E2 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C165376E272AC2B80009A8E2 /* ViewController.swift in Sources */,
+				C1941C7F272AC83000C65E52 /* OrangeViewController.swift in Sources */,
 				C165376A272AC2B80009A8E2 /* AppDelegate.swift in Sources */,
+				C1941C7D272AC7F700C65E52 /* IndigoViewController.swift in Sources */,
 				C165376C272AC2B80009A8E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +303,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -324,6 +333,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
