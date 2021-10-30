@@ -24,20 +24,22 @@ class WhiteViewController: UIViewController {
         
         let alert = UIAlertController(title: nil, message: message, preferredStyle: .actionSheet)
         
-        // style 로 선택할 수 있는 3가지 열거형을 모두 만들어보자!
-        let defaultAction = UIAlertAction(title: "Default", style: .default)
-        let defaultAction2 = UIAlertAction(title: "Default2", style: .default)
-        let defaultAction3 = UIAlertAction(title: "Default3", style: .default)
+        // 버튼 누르면 화면 이동할 수 있도록 만들기
+        let goToOrangeAction = UIAlertAction(title: "Go to Orange", style: .default) {
+            (action) in print("오렌지로 가자!")
+        }
+        let goToIndigoAction = UIAlertAction(title: "Go to Indigo", style: .default) {
+            (action) in print("인디고로 가자!")
+        }
+        let destructiveAction = UIAlertAction(title: "Destruct", style: .destructive) {
+            (action) in print("무엇인가 삭제됨!")
+        }
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
-        let destructiveAction = UIAlertAction(title: "Destruct", style: .destructive)
-        let destructiveAction2 = UIAlertAction(title: "Destruct2", style: .destructive)
         
-        // default, cancel, destructive 순서대로 alert 에 액션을 넣어준다.
+        // alert 에 액션 버튼을 넣어준다. (액션이 3개 이상이면 위부터 아래로 배열)
+        alert.addAction(goToOrangeAction)
+        alert.addAction(goToIndigoAction)
         alert.addAction(destructiveAction)
-        alert.addAction(destructiveAction2)
-        alert.addAction(defaultAction)
-        alert.addAction(defaultAction2)
-        alert.addAction(defaultAction3)
         alert.addAction(cancelAction)
         
         // alert 모달을 화면에 띄우는 메서드
