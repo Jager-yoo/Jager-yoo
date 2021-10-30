@@ -37,9 +37,10 @@ class WhiteViewController: UIViewController {
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
         
         // alert 에 액션 버튼을 넣어준다. (액션이 3개 이상이면 위부터 아래로 배열)
+        // destructive or dangerous action must be displayed at the top of the action sheet.
+        alert.addAction(destructiveAction)
         alert.addAction(goToOrangeAction)
         alert.addAction(goToIndigoAction)
-        alert.addAction(destructiveAction)
         alert.addAction(cancelAction)
         
         // alert 모달을 화면에 띄우는 메서드
