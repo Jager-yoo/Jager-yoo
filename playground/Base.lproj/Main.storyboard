@@ -89,24 +89,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUF-VP-ktg">
-                                <rect key="frame" x="132" y="398" width="150" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLQ-BL-rze">
+                                <rect key="frame" x="132" y="408" width="150" height="80"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="S4L-Rr-EDv"/>
-                                    <constraint firstAttribute="width" constant="150" id="cMM-bD-IXM"/>
+                                    <constraint firstAttribute="height" constant="80" id="0do-8j-8lI"/>
+                                    <constraint firstAttribute="width" constant="150" id="Tqy-iX-G6w"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Modal 발동! (Present Modally)"/>
+                                <connections>
+                                    <segue destination="pH2-c1-d0v" kind="presentation" id="IMc-0u-AtH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Kh-KC-owl">
+                                <rect key="frame" x="132" y="588" width="150" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="3wM-gc-WLg"/>
+                                    <constraint firstAttribute="width" constant="150" id="8ny-Nx-xEW"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Modal 발동! (Full Screen)"/>
+                                <connections>
+                                    <segue destination="pH2-c1-d0v" kind="presentation" modalPresentationStyle="fullScreen" id="6fc-6b-Hav"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUF-VP-ktg">
+                                <rect key="frame" x="132" y="228" width="150" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="NhQ-8y-749"/>
+                                    <constraint firstAttribute="width" constant="150" id="cPC-Sq-2Ng"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Alert 발동!"/>
                                 <connections>
-                                    <action selector="AlertButtonDidPushed:" destination="RtD-fn-KOQ" eventType="touchUpInside" id="aN7-1L-e1u"/>
+                                    <action selector="AlertButtonDidPushed:" destination="RtD-fn-KOQ" eventType="touchUpInside" id="cxi-jJ-t0Y"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lch-tx-epG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zUF-VP-ktg" firstAttribute="centerX" secondItem="YxE-2d-P5L" secondAttribute="centerX" id="JeS-7S-mvm"/>
-                            <constraint firstItem="zUF-VP-ktg" firstAttribute="centerY" secondItem="YxE-2d-P5L" secondAttribute="centerY" id="zrN-fZ-0r7"/>
+                            <constraint firstItem="6Kh-KC-owl" firstAttribute="top" secondItem="RLQ-BL-rze" secondAttribute="bottom" constant="100" id="CCE-4D-mPO"/>
+                            <constraint firstItem="zUF-VP-ktg" firstAttribute="centerX" secondItem="YxE-2d-P5L" secondAttribute="centerX" id="d7N-6d-udg"/>
+                            <constraint firstItem="RLQ-BL-rze" firstAttribute="centerY" secondItem="YxE-2d-P5L" secondAttribute="centerY" id="gCC-k1-tcL"/>
+                            <constraint firstItem="6Kh-KC-owl" firstAttribute="centerX" secondItem="YxE-2d-P5L" secondAttribute="centerX" id="gw3-xB-7ul"/>
+                            <constraint firstItem="RLQ-BL-rze" firstAttribute="top" secondItem="zUF-VP-ktg" secondAttribute="bottom" constant="100" id="z12-mO-w4f"/>
+                            <constraint firstItem="RLQ-BL-rze" firstAttribute="centerX" secondItem="YxE-2d-P5L" secondAttribute="centerX" id="zBd-R7-FvN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="White" id="jYB-MU-HUi"/>
@@ -114,6 +142,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eDd-tn-BfU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2634.7826086956525" y="75.669642857142847"/>
+        </scene>
+        <!--Modal View Controller-->
+        <scene sceneID="dCk-5M-eCd">
+            <objects>
+                <viewController id="pH2-c1-d0v" customClass="ModalViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3lx-tU-qp4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="여기는 Modal 입니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0k-mV-9lG">
+                                <rect key="frame" x="87" y="404" width="240" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="m3M-Yo-KIr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="daQ-nD-FZ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3497" y="76"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6ec-su-CIT">
@@ -138,6 +190,9 @@
             <point key="canvasLocation" x="2.8985507246376816" y="76.339285714285708"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="6fc-6b-Hav"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

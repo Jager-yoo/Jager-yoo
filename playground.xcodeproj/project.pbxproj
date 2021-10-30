@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C11BD3A8272D33D000F104BF /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BD3A7272D33D000F104BF /* ModalViewController.swift */; };
 		C165376A272AC2B80009A8E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1653769272AC2B80009A8E2 /* AppDelegate.swift */; };
 		C165376C272AC2B80009A8E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165376B272AC2B80009A8E2 /* SceneDelegate.swift */; };
 		C165376E272AC2B80009A8E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165376D272AC2B80009A8E2 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C11BD3A7272D33D000F104BF /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		C1653766272AC2B80009A8E2 /* playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1653769272AC2B80009A8E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C165376B272AC2B80009A8E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				C1941C7E272AC83000C65E52 /* OrangeViewController.swift */,
 				C1941C7C272AC7F700C65E52 /* IndigoViewController.swift */,
 				C1941C80272AD15000C65E52 /* WhiteViewController.swift */,
+				C11BD3A7272D33D000F104BF /* ModalViewController.swift */,
 				C165376F272AC2B80009A8E2 /* Main.storyboard */,
 				C1653772272AC2BB0009A8E2 /* Assets.xcassets */,
 				C1653774272AC2BB0009A8E2 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				C1941C7D272AC7F700C65E52 /* IndigoViewController.swift in Sources */,
 				C1941C81272AD15000C65E52 /* WhiteViewController.swift in Sources */,
 				C165376C272AC2B80009A8E2 /* SceneDelegate.swift in Sources */,
+				C11BD3A8272D33D000F104BF /* ModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
