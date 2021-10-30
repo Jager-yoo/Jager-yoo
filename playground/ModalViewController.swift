@@ -35,4 +35,11 @@ class ModalViewController: UIViewController {
         super.viewDidDisappear(true)
         print("--Modal view did disappear!--")
     }
+    
+    @IBAction func dismissDidPushed(_ sender: UIButton) {
+        self.dismiss(animated: true) {
+            // 이 클로저는 Modal viewDidDisappear() 이후에 호출됨
+            print("--[dismiss] 버튼으로 Modal 사라짐--")
+        }
+    }
 }
