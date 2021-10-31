@@ -157,9 +157,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2r-Oj-5j0">
-                                <rect key="frame" x="20" y="60" width="98" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2r-Oj-5j0">
+                                <rect key="frame" x="16" y="60" width="74.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dismiss"/>
                                 <connections>
@@ -171,7 +170,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="e0k-mV-9lG" firstAttribute="centerY" secondItem="3lx-tU-qp4" secondAttribute="centerY" id="0Oq-sG-afI"/>
+                            <constraint firstItem="P2r-Oj-5j0" firstAttribute="top" secondItem="m3M-Yo-KIr" secondAttribute="top" constant="16" id="i7B-lF-dWA"/>
                             <constraint firstItem="e0k-mV-9lG" firstAttribute="centerX" secondItem="3lx-tU-qp4" secondAttribute="centerX" id="nxU-Dp-XiK"/>
+                            <constraint firstItem="P2r-Oj-5j0" firstAttribute="leading" secondItem="m3M-Yo-KIr" secondAttribute="leading" constant="16" id="uOb-Ho-G40"/>
                         </constraints>
                     </view>
                 </viewController>
