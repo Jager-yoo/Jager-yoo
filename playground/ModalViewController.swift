@@ -9,6 +9,12 @@ import UIKit
 
 class ModalViewController: UIViewController {
     
+    @IBOutlet weak var stepperLabel: UILabel!
+    
+    @IBAction func stepperDidPush(_ sender: UIStepper) {
+        stepperLabel.text = sender.value.description
+    }
+    
     @IBAction func dismissDidPushed(_ sender: UIButton) {
         self.dismiss(animated: true) {
             // 이 클로저는 Modal viewDidDisappear() 이후에 호출됨
