@@ -172,11 +172,11 @@
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwx-if-RPd">
-                                <rect key="frame" x="191.5" y="554" width="31" height="50"/>
+                                <rect key="frame" x="177" y="554" width="60.5" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="CB0-0T-bQ5"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
