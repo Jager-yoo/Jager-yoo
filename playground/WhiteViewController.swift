@@ -49,6 +49,7 @@ class WhiteViewController: UIViewController {
         let goToOrangeAction = UIAlertAction(title: "Go to Orange", style: .default) {
             (action) in
             print("오렌지로 가자!")
+            // FIXME: 아래 코드를 통해 OrangeView 로 이동은 하는데, Stack 이 쌓이는 식으로 감. 아예 처음으로 돌아가는 식으로 구현을 바꿔야 함.
             let orangeView = self.storyboard!.instantiateViewController(withIdentifier: "OrangeView")
             self.navigationController!.pushViewController(orangeView, animated: true)
         }
