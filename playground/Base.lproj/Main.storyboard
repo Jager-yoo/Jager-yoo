@@ -165,14 +165,31 @@
                                     <action selector="dismissDidPushed:" destination="pH2-c1-d0v" eventType="touchUpInside" id="tc2-Qd-xAL"/>
                                 </connections>
                             </button>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="tus-lK-bwz">
+                                <rect key="frame" x="160" y="624" width="94" height="32"/>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwx-if-RPd">
+                                <rect key="frame" x="193.5" y="554" width="27" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="CB0-0T-bQ5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m3M-Yo-KIr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="e0k-mV-9lG" firstAttribute="centerY" secondItem="3lx-tU-qp4" secondAttribute="centerY" id="0Oq-sG-afI"/>
+                            <constraint firstItem="Gwx-if-RPd" firstAttribute="top" secondItem="e0k-mV-9lG" secondAttribute="bottom" constant="89" id="9gj-z6-IPN"/>
+                            <constraint firstItem="tus-lK-bwz" firstAttribute="top" secondItem="Gwx-if-RPd" secondAttribute="bottom" constant="20" id="IYp-UM-MW8"/>
+                            <constraint firstItem="m3M-Yo-KIr" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="P2r-Oj-5j0" secondAttribute="trailing" symbolic="YES" id="hzT-J8-wDQ"/>
                             <constraint firstItem="P2r-Oj-5j0" firstAttribute="top" secondItem="m3M-Yo-KIr" secondAttribute="top" constant="16" id="i7B-lF-dWA"/>
                             <constraint firstItem="e0k-mV-9lG" firstAttribute="centerX" secondItem="3lx-tU-qp4" secondAttribute="centerX" id="nxU-Dp-XiK"/>
+                            <constraint firstItem="Gwx-if-RPd" firstAttribute="centerX" secondItem="3lx-tU-qp4" secondAttribute="centerX" id="rIu-yE-3rc"/>
                             <constraint firstItem="P2r-Oj-5j0" firstAttribute="leading" secondItem="m3M-Yo-KIr" secondAttribute="leading" constant="16" id="uOb-Ho-G40"/>
+                            <constraint firstItem="tus-lK-bwz" firstAttribute="centerX" secondItem="3lx-tU-qp4" secondAttribute="centerX" id="uxJ-rQ-cQf"/>
                         </constraints>
                     </view>
                 </viewController>
