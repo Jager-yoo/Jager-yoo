@@ -11,6 +11,7 @@ class ModalViewController: UIViewController {
     
     @IBOutlet weak var stepperLabel: UILabel!
     
+    // FIXME: stepperLabel 이 처음엔 "50" 으로 시작하지만, 숫자를 바꾸면 49.0, 51.0 처럼 소수점까지 표시됨.
     @IBAction func stepperDidPush(_ sender: UIStepper) {
         stepperLabel.text = sender.value.description
     }
