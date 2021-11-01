@@ -47,7 +47,10 @@ class WhiteViewController: UIViewController {
         
         // 버튼 누르면 화면 이동할 수 있도록 만들기
         let goToOrangeAction = UIAlertAction(title: "Go to Orange", style: .default) {
-            (action) in print("오렌지로 가자!")
+            (action) in
+            print("오렌지로 가자!")
+            let orangeView = self.storyboard!.instantiateViewController(withIdentifier: "OrangeView")
+            self.navigationController!.pushViewController(orangeView, animated: true)
         }
         let goToIndigoAction = UIAlertAction(title: "Go to Indigo", style: .default) {
             (action) in print("인디고로 가자!")

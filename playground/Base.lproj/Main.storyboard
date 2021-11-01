@@ -11,7 +11,7 @@
         <!--Orange-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="OrangeViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OrangeView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="OrangeViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
         <!--Indigo-->
         <scene sceneID="TU3-9u-h0M">
             <objects>
-                <viewController id="xoi-h6-Smm" customClass="IndigoViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="IndigoView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xoi-h6-Smm" customClass="IndigoViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j1f-fJ-cjq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
