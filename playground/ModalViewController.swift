@@ -26,8 +26,8 @@ class ModalViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        print("--Modal view did load!--")
     }
     
     override func viewWillAppear(_ animated: Bool) {

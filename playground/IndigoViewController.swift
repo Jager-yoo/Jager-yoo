@@ -11,8 +11,8 @@ class IndigoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
+        print("--Indigo view did load!--")
     }
     
     override func viewWillAppear(_ animated: Bool) {
