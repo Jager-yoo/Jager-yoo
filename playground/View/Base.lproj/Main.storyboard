@@ -171,17 +171,17 @@
             <objects>
                 <viewController id="pH2-c1-d0v" customClass="ModalViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3lx-tU-qp4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="여기는 Modal 입니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0k-mV-9lG">
-                                <rect key="frame" x="87" y="404" width="240" height="34"/>
+                                <rect key="frame" x="87" y="431" width="240" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2r-Oj-5j0">
-                                <rect key="frame" x="16" y="16" width="74.5" height="31"/>
+                                <rect key="frame" x="16" y="60" width="74.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dismiss"/>
                                 <connections>
@@ -189,13 +189,13 @@
                                 </connections>
                             </button>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="tus-lK-bwz">
-                                <rect key="frame" x="160" y="597" width="94" height="32"/>
+                                <rect key="frame" x="160" y="624" width="94" height="32"/>
                                 <connections>
                                     <action selector="stepperDidPush:" destination="pH2-c1-d0v" eventType="valueChanged" id="FbA-Ea-LQN"/>
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwx-if-RPd">
-                                <rect key="frame" x="177" y="527" width="60.5" height="50"/>
+                                <rect key="frame" x="177" y="554" width="60.5" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="CB0-0T-bQ5"/>
                                 </constraints>
@@ -204,29 +204,29 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74C-tM-1cx">
-                                <rect key="frame" x="105.5" y="130" width="203" height="38"/>
+                                <rect key="frame" x="105.5" y="174" width="203" height="38"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Orange 화면으로 이동" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                     <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="LXx-ie-iSG" kind="unwind" unwindAction="goToOrangeView:" id="xP6-ce-bUn"/>
+                                    <segue destination="LXx-ie-iSG" kind="unwind" identifier="goToOrangeViewSegue" unwindAction="goToOrangeView:" id="xP6-ce-bUn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfA-Nk-f1r">
-                                <rect key="frame" x="111" y="208" width="192" height="38"/>
+                                <rect key="frame" x="111" y="252" width="192" height="38"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Indigo 화면으로 이동" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                     <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="LXx-ie-iSG" kind="unwind" unwindAction="goToIndigoView:" id="o4f-GZ-K0t"/>
+                                    <segue destination="LXx-ie-iSG" kind="unwind" identifier="goToIndigoViewSegue" unwindAction="goToIndigoView:" id="o4f-GZ-K0t"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAU-eu-a16">
-                                <rect key="frame" x="112.5" y="286" width="189" height="38"/>
+                                <rect key="frame" x="112.5" y="330" width="189" height="38"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="White 화면으로 이동" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
@@ -234,7 +234,7 @@
                                     <color key="baseBackgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="LXx-ie-iSG" kind="unwind" unwindAction="goToWhiteView:" id="7L4-wy-9Vd"/>
+                                    <segue destination="LXx-ie-iSG" kind="unwind" identifier="goToWhiteViewSegue" unwindAction="goToWhiteView:" id="7L4-wy-9Vd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -269,7 +269,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="IMc-0u-AtH"/>
+        <segue reference="6fc-6b-Hav"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
