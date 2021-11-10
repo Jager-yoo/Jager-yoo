@@ -2,7 +2,7 @@
 //  ModalViewController.swift
 //  playground
 //
-//  Created by 유재호 on 2021/10/30.
+//  Created by 예거 on 2021/10/30.
 //
 
 import UIKit

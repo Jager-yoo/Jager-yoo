@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  playground
 //
-//  Created by 유재호 on 2021/10/28.
+//  Created by 예거 on 2021/10/28.
 //
 
 import UIKit
