@@ -9,6 +9,10 @@ import UIKit
 
 class WhiteViewController: UIViewController {
     
+    @IBAction func goToWhiteView(_ segue: UIStoryboardSegue) {
+        print("화이트 뷰로 돌아가자!")
+    }
+    
     @IBAction func AlertButtonDidPushed(_ sender: UIButton) {
         showAlert()
     }

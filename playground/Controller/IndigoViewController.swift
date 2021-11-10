@@ -8,6 +8,10 @@
 import UIKit
 
 class IndigoViewController: UIViewController {
+    
+    @IBAction func goToIndigoView(_ segue: UIStoryboardSegue) {
+        print("인디고 뷰로 돌아가자!")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

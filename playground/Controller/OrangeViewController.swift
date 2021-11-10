@@ -8,6 +8,10 @@
 import UIKit
 
 class OrangeViewController: UIViewController {
+    
+    @IBAction func goToOrangeView(_ segue: UIStoryboardSegue) {
+        print("오렌지 뷰로 돌아가자!")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

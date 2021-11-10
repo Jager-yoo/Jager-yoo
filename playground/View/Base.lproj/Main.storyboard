@@ -2,12 +2,35 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Xqx-na-5Fz">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="6ec-su-CIT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xqx-na-5Fz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ZDr-zy-D3A">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Dz8-k2-57m"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ELJ-Fd-hP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2.8985507246376816" y="76.339285714285708"/>
+        </scene>
         <!--Orange-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -148,17 +171,17 @@
             <objects>
                 <viewController id="pH2-c1-d0v" customClass="ModalViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3lx-tU-qp4">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="여기는 Modal 입니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0k-mV-9lG">
-                                <rect key="frame" x="87" y="431" width="240" height="34"/>
+                                <rect key="frame" x="87" y="404" width="240" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2r-Oj-5j0">
-                                <rect key="frame" x="16" y="60" width="74.5" height="31"/>
+                                <rect key="frame" x="16" y="16" width="74.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Dismiss"/>
                                 <connections>
@@ -166,13 +189,13 @@
                                 </connections>
                             </button>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="tus-lK-bwz">
-                                <rect key="frame" x="160" y="624" width="94" height="32"/>
+                                <rect key="frame" x="160" y="597" width="94" height="32"/>
                                 <connections>
                                     <action selector="stepperDidPush:" destination="pH2-c1-d0v" eventType="valueChanged" id="FbA-Ea-LQN"/>
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwx-if-RPd">
-                                <rect key="frame" x="177" y="554" width="60.5" height="50"/>
+                                <rect key="frame" x="177" y="527" width="60.5" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="CB0-0T-bQ5"/>
                                 </constraints>
@@ -180,16 +203,56 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74C-tM-1cx">
+                                <rect key="frame" x="105.5" y="130" width="203" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Orange 화면으로 이동" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="LXx-ie-iSG" kind="unwind" unwindAction="goToOrangeView:" id="xP6-ce-bUn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfA-Nk-f1r">
+                                <rect key="frame" x="111" y="208" width="192" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Indigo 화면으로 이동" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="LXx-ie-iSG" kind="unwind" unwindAction="goToIndigoView:" id="o4f-GZ-K0t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAU-eu-a16">
+                                <rect key="frame" x="112.5" y="286" width="189" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="White 화면으로 이동" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="LXx-ie-iSG" kind="unwind" unwindAction="goToWhiteView:" id="7L4-wy-9Vd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m3M-Yo-KIr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="e0k-mV-9lG" firstAttribute="centerY" secondItem="3lx-tU-qp4" secondAttribute="centerY" id="0Oq-sG-afI"/>
                             <constraint firstItem="Gwx-if-RPd" firstAttribute="top" secondItem="e0k-mV-9lG" secondAttribute="bottom" constant="89" id="9gj-z6-IPN"/>
+                            <constraint firstItem="HfA-Nk-f1r" firstAttribute="centerX" secondItem="3lx-tU-qp4" secondAttribute="centerX" id="EW7-NU-7Ex"/>
+                            <constraint firstItem="NAU-eu-a16" firstAttribute="top" secondItem="HfA-Nk-f1r" secondAttribute="bottom" constant="40" id="FcI-Vh-mPI"/>
                             <constraint firstItem="tus-lK-bwz" firstAttribute="top" secondItem="Gwx-if-RPd" secondAttribute="bottom" constant="20" id="IYp-UM-MW8"/>
+                            <constraint firstItem="NAU-eu-a16" firstAttribute="centerX" secondItem="3lx-tU-qp4" secondAttribute="centerX" id="Jdu-yT-wgD"/>
+                            <constraint firstItem="HfA-Nk-f1r" firstAttribute="top" secondItem="74C-tM-1cx" secondAttribute="bottom" constant="40" id="XDY-Gu-Uwm"/>
+                            <constraint firstItem="74C-tM-1cx" firstAttribute="top" secondItem="m3M-Yo-KIr" secondAttribute="top" constant="130" id="b4e-dV-2Gr"/>
                             <constraint firstItem="m3M-Yo-KIr" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="P2r-Oj-5j0" secondAttribute="trailing" symbolic="YES" id="hzT-J8-wDQ"/>
                             <constraint firstItem="P2r-Oj-5j0" firstAttribute="top" secondItem="m3M-Yo-KIr" secondAttribute="top" constant="16" id="i7B-lF-dWA"/>
                             <constraint firstItem="e0k-mV-9lG" firstAttribute="centerX" secondItem="3lx-tU-qp4" secondAttribute="centerX" id="nxU-Dp-XiK"/>
+                            <constraint firstItem="74C-tM-1cx" firstAttribute="centerX" secondItem="3lx-tU-qp4" secondAttribute="centerX" id="pfa-Ti-SQR"/>
                             <constraint firstItem="Gwx-if-RPd" firstAttribute="centerX" secondItem="3lx-tU-qp4" secondAttribute="centerX" id="rIu-yE-3rc"/>
                             <constraint firstItem="P2r-Oj-5j0" firstAttribute="leading" secondItem="m3M-Yo-KIr" secondAttribute="leading" constant="16" id="uOb-Ho-G40"/>
                             <constraint firstItem="tus-lK-bwz" firstAttribute="centerX" secondItem="3lx-tU-qp4" secondAttribute="centerX" id="uxJ-rQ-cQf"/>
@@ -200,34 +263,13 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="daQ-nD-FZ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="LXx-ie-iSG" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3495.652173913044" y="75.669642857142847"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="6ec-su-CIT">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xqx-na-5Fz" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ZDr-zy-D3A">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <textAttributes key="largeTitleTextAttributes">
-                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Dz8-k2-57m"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ELJ-Fd-hP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2.8985507246376816" y="76.339285714285708"/>
-        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6fc-6b-Hav"/>
+        <segue reference="IMc-0u-AtH"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
