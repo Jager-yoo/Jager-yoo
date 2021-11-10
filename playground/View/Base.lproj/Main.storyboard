@@ -265,7 +265,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="daQ-nD-FZ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="LXx-ie-iSG" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3495.652173913044" y="75.669642857142847"/>
+            <point key="canvasLocation" x="3499" y="76"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

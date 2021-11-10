@@ -9,7 +9,7 @@ import UIKit
 
 class WhiteViewController: UIViewController {
     
-    func goToWhiteView(_ segue: UIStoryboardSegue) {
+    @IBAction func goToWhiteView(_ segue: UIStoryboardSegue) {
         print("화이트 뷰로 돌아가자!")
     }
     
@@ -49,20 +49,30 @@ class WhiteViewController: UIViewController {
         
         let alert = UIAlertController(title: nil, message: message, preferredStyle: .actionSheet)
         
-        // 버튼 누르면 화면 이동할 수 있도록 만들기
+        // Alert 버튼 누르면 화면 이동할 수 있도록 만들기
         let goToOrangeAction = UIAlertAction(title: "Go to Orange", style: .default) {
             (action) in
-            print("오렌지로 가자!")
+            print("Alert 버튼을 통해 오렌지로 가자!")
+            // FIXME: 스토리보드에서 Unwind Segue 의 Identifier 지정해주고 정확한 String 을 불러냈는데, "has no segue with identifier" 런타임 에러가 남. 뭐지?
+            // Unwind Segue 의 Identifier 를 지정하고, 코드에서는 self.performSegue() 메서드를 통해 화면 이동 구현
+            self.performSegue(withIdentifier: "goToOrangeViewSegue", sender: self)
+            
             // FIXME: 아래 코드를 통해 OrangeView 로 이동은 하는데, Stack 이 쌓이는 식으로 감. 아예 처음으로 돌아가는 식으로 구현을 바꿔야 함.
-            let orangeView = self.storyboard!.instantiateViewController(withIdentifier: "OrangeView")
-            self.navigationController!.pushViewController(orangeView, animated: true)
+            // let orangeView = self.storyboard!.instantiateViewController(withIdentifier: "OrangeView")
+            // self.navigationController!.pushViewController(orangeView, animated: true)
         }
+        
         let goToIndigoAction = UIAlertAction(title: "Go to Indigo", style: .default) {
-            (action) in print("인디고로 가자!")
+            (action) in
+            print("Alert 버튼을 통해 인디고로 가자!")
+            self.performSegue(withIdentifier: "goToIndigoViewSegue", sender: self)
         }
+        
         let destructiveAction = UIAlertAction(title: "Destruct", style: .destructive) {
-            (action) in print("무엇인가 삭제됨!")
+            (action) in
+            print("무엇인가 삭제됨!")
         }
+        
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
         
         // alert 에 액션 버튼을 넣어준다. (액션이 3개 이상이면 위부터 아래로 배열)
