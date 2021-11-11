@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lrM-kl-5pa">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab1-->
+        <scene sceneID="EFU-Ev-7bF">
+            <objects>
+                <navigationController title="Tab1" automaticallyAdjustsScrollViewInsets="NO" id="lrM-kl-5pa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="more" id="okR-85-kZ8"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="eNb-fG-5ll">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Pg8-Gv-ueL" kind="relationship" relationship="rootViewController" id="8rM-ft-kyE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HtV-fT-I4F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-51" y="398"/>
+        </scene>
+        <!--Orange-->
+        <scene sceneID="XId-Fv-zo8">
+            <objects>
+                <viewController storyboardIdentifier="OrangeView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Pg8-Gv-ueL" customClass="OrangeViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1RY-hV-udD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="mHr-ee-Ywc">
+                                <rect key="frame" x="132" y="423" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="FxV-ID-5Xm"/>
+                                    <constraint firstAttribute="height" constant="50" id="LVG-le-0R5"/>
+                                </constraints>
+                                <buttonConfiguration key="configuration" style="filled" title="다음 화면으로 이동">
+                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="DlG-i5-IOa" kind="show" id="adg-3S-va7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3iT-b8-VcS"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="mHr-ee-Ywc" firstAttribute="centerY" secondItem="1RY-hV-udD" secondAttribute="centerY" id="041-Ci-fsq"/>
+                            <constraint firstItem="mHr-ee-Ywc" firstAttribute="centerX" secondItem="1RY-hV-udD" secondAttribute="centerX" id="NxB-fP-8ys"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Orange" id="9Uy-t0-d4d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="so5-de-EMf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="812" y="398"/>
+        </scene>
+        <!--Indigo-->
+        <scene sceneID="ysS-5f-8Ed">
+            <objects>
+                <viewController storyboardIdentifier="IndigoView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="DlG-i5-IOa" customClass="IndigoViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z5b-gx-ADG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="bKK-TZ-INF">
+                                <rect key="frame" x="132" y="423" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="40R-by-5ub"/>
+                                    <constraint firstAttribute="height" constant="50" id="STN-dB-O4k"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="ULe-i0-eGg"/>
+                                    <constraint firstAttribute="width" constant="150" id="lwZ-ko-XeS"/>
+                                </constraints>
+                                <buttonConfiguration key="configuration" style="filled" title="다음 화면으로 이동">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="H1v-4t-YHk" kind="show" id="QSa-xh-an0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VIs-eC-x9K"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="bKK-TZ-INF" firstAttribute="centerY" secondItem="Z5b-gx-ADG" secondAttribute="centerY" id="BC3-kQ-RWe"/>
+                            <constraint firstItem="bKK-TZ-INF" firstAttribute="centerX" secondItem="Z5b-gx-ADG" secondAttribute="centerX" id="eFx-j5-TLy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Indigo" id="8kN-YG-Smq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A8d-US-dqo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1748" y="398"/>
+        </scene>
+        <!--White-->
+        <scene sceneID="AeS-o0-jmy">
+            <objects>
+                <viewController id="H1v-4t-YHk" customClass="WhiteViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="an8-oo-coe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORt-H3-3Gt">
+                                <rect key="frame" x="132" y="408" width="150" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Tc0-ge-M8n"/>
+                                    <constraint firstAttribute="height" constant="80" id="aO4-JT-Vhs"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Modal 발동! (Present Modally)"/>
+                                <connections>
+                                    <segue destination="9ak-Q6-9uS" kind="presentation" id="1fO-FI-vmL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2e-g4-V02">
+                                <rect key="frame" x="132" y="588" width="150" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="YZH-1Y-6Gk"/>
+                                    <constraint firstAttribute="height" constant="80" id="lNa-hX-72n"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Modal 발동! (Full Screen)"/>
+                                <connections>
+                                    <segue destination="9ak-Q6-9uS" kind="presentation" modalPresentationStyle="fullScreen" id="MHT-27-aAu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBo-vF-B2w">
+                                <rect key="frame" x="132" y="228" width="150" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="f7W-a1-L7d"/>
+                                    <constraint firstAttribute="height" constant="80" id="zk4-v8-cEv"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Alert 발동!"/>
+                                <connections>
+                                    <action selector="AlertButtonDidPushed:" destination="H1v-4t-YHk" eventType="touchUpInside" id="YdI-cL-ozd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kpj-w5-mv7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ORt-H3-3Gt" firstAttribute="centerY" secondItem="an8-oo-coe" secondAttribute="centerY" id="5UM-RT-2LG"/>
+                            <constraint firstItem="ORt-H3-3Gt" firstAttribute="centerX" secondItem="an8-oo-coe" secondAttribute="centerX" id="fxE-oH-DEU"/>
+                            <constraint firstItem="lBo-vF-B2w" firstAttribute="centerX" secondItem="an8-oo-coe" secondAttribute="centerX" id="nbV-Gr-2sM"/>
+                            <constraint firstItem="h2e-g4-V02" firstAttribute="centerX" secondItem="an8-oo-coe" secondAttribute="centerX" id="oZq-ct-Byi"/>
+                            <constraint firstItem="ORt-H3-3Gt" firstAttribute="top" secondItem="lBo-vF-B2w" secondAttribute="bottom" constant="100" id="siY-M3-zer"/>
+                            <constraint firstItem="h2e-g4-V02" firstAttribute="top" secondItem="ORt-H3-3Gt" secondAttribute="bottom" constant="100" id="snK-aU-rGw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="White" id="UcU-gd-XNO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BIJ-vv-Ve7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2672" y="398"/>
+        </scene>
+        <!--Modal View Controller-->
+        <scene sceneID="oNc-M8-9BM">
+            <objects>
+                <viewController id="9ak-Q6-9uS" customClass="ModalViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BXl-XX-YR8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="여기는 Modal 입니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TY4-AE-jdl">
+                                <rect key="frame" x="87" y="404" width="240" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yw3-ay-BMY">
+                                <rect key="frame" x="16" y="16" width="74.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dismiss"/>
+                                <connections>
+                                    <action selector="dismissDidPushed:" destination="9ak-Q6-9uS" eventType="touchUpInside" id="O37-Sk-5j2"/>
+                                </connections>
+                            </button>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="XUo-5H-TVH">
+                                <rect key="frame" x="160" y="597" width="94" height="32"/>
+                                <connections>
+                                    <action selector="stepperDidPush:" destination="9ak-Q6-9uS" eventType="valueChanged" id="OTE-ct-r5y"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xi7-X4-TBc">
+                                <rect key="frame" x="177" y="527" width="60.5" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1zM-ag-gcN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iry-SB-orY">
+                                <rect key="frame" x="105.5" y="130" width="203" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Orange 화면으로 이동" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="THn-c4-UIJ" kind="unwind" identifier="goToOrangeViewSegue" unwindAction="goToOrangeView:" id="skM-WY-Vhe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMh-Z9-sXR">
+                                <rect key="frame" x="111" y="208" width="192" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Indigo 화면으로 이동" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="THn-c4-UIJ" kind="unwind" identifier="goToIndigoViewSegue" unwindAction="goToIndigoView:" id="ICI-qX-ba9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olw-yX-ufk">
+                                <rect key="frame" x="112.5" y="286" width="189" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="White 화면으로 이동" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="THn-c4-UIJ" kind="unwind" identifier="goToWhiteViewSegue" unwindAction="goToWhiteView:" id="Pp4-Od-Jrc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ccf-gP-CaT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="olw-yX-ufk" firstAttribute="centerX" secondItem="BXl-XX-YR8" secondAttribute="centerX" id="4Pf-UJ-xE8"/>
+                            <constraint firstItem="TY4-AE-jdl" firstAttribute="centerY" secondItem="BXl-XX-YR8" secondAttribute="centerY" id="8PS-1D-7B4"/>
+                            <constraint firstItem="olw-yX-ufk" firstAttribute="top" secondItem="dMh-Z9-sXR" secondAttribute="bottom" constant="40" id="9bH-rN-gs9"/>
+                            <constraint firstItem="xi7-X4-TBc" firstAttribute="top" secondItem="TY4-AE-jdl" secondAttribute="bottom" constant="89" id="Qdw-L5-wJZ"/>
+                            <constraint firstItem="iry-SB-orY" firstAttribute="centerX" secondItem="BXl-XX-YR8" secondAttribute="centerX" id="TqT-50-YOJ"/>
+                            <constraint firstItem="xi7-X4-TBc" firstAttribute="centerX" secondItem="BXl-XX-YR8" secondAttribute="centerX" id="UFo-s6-hMG"/>
+                            <constraint firstItem="XUo-5H-TVH" firstAttribute="centerX" secondItem="BXl-XX-YR8" secondAttribute="centerX" id="Xs2-2T-IdU"/>
+                            <constraint firstItem="ccf-gP-CaT" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yw3-ay-BMY" secondAttribute="trailing" symbolic="YES" id="Xyh-WJ-8jq"/>
+                            <constraint firstItem="yw3-ay-BMY" firstAttribute="leading" secondItem="ccf-gP-CaT" secondAttribute="leading" constant="16" id="dB2-U4-HNz"/>
+                            <constraint firstItem="XUo-5H-TVH" firstAttribute="top" secondItem="xi7-X4-TBc" secondAttribute="bottom" constant="20" id="dKQ-Rc-2HW"/>
+                            <constraint firstItem="dMh-Z9-sXR" firstAttribute="top" secondItem="iry-SB-orY" secondAttribute="bottom" constant="40" id="eXy-Ci-jB8"/>
+                            <constraint firstItem="dMh-Z9-sXR" firstAttribute="centerX" secondItem="BXl-XX-YR8" secondAttribute="centerX" id="hJb-eK-iej"/>
+                            <constraint firstItem="yw3-ay-BMY" firstAttribute="top" secondItem="ccf-gP-CaT" secondAttribute="top" constant="16" id="sst-TB-KEC"/>
+                            <constraint firstItem="iry-SB-orY" firstAttribute="top" secondItem="ccf-gP-CaT" secondAttribute="top" constant="130" id="vcx-cw-4tL"/>
+                            <constraint firstItem="TY4-AE-jdl" firstAttribute="centerX" secondItem="BXl-XX-YR8" secondAttribute="centerX" id="zaf-kG-Qm1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stepperLabel" destination="xi7-X4-TBc" id="yxZ-ip-10f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a8m-eB-U0Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="THn-c4-UIJ" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3620" y="398"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="1fO-FI-vmL"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
