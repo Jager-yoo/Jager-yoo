@@ -43,6 +43,7 @@
         <!--Tab2-->
         <scene sceneID="t7o-UG-psJ">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rs8-mf-XXR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="4kt-pL-AYn" userLabel="Tab2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Adw-GM-Qh9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -64,7 +65,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="EXp-zQ-Fzt"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rs8-mf-XXR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1510" y="1168"/>
         </scene>
