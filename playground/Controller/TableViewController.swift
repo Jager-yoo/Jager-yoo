@@ -46,7 +46,7 @@ class TableViewController: UITableViewController {
         
         cell.circleImage.image = UIImage(systemName: "circle")
         cell.menuNameLabel.text = menuName
-        cell.menuPriceLabel.text = menuPrice.description
+        cell.menuPriceLabel.text = menuPrice.decimalString
 
         return cell
     }
