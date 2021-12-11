@@ -11,6 +11,7 @@
 		C157691E2764F1900086EE07 /* Tab2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C157691D2764F1900086EE07 /* Tab2.storyboard */; };
 		C15769202764F20E0086EE07 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C157691F2764F20E0086EE07 /* TableViewController.swift */; };
 		C15769222764F4920086EE07 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15769212764F4920086EE07 /* CustomTableViewCell.swift */; };
+		C1576924276516EE0086EE07 /* MenuForTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1576923276516EE0086EE07 /* MenuForTableView.swift */; };
 		C165376A272AC2B80009A8E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1653769272AC2B80009A8E2 /* AppDelegate.swift */; };
 		C165376C272AC2B80009A8E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165376B272AC2B80009A8E2 /* SceneDelegate.swift */; };
 		C1653771272AC2B80009A8E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C165376F272AC2B80009A8E2 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 		C157691D2764F1900086EE07 /* Tab2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab2.storyboard; sourceTree = "<group>"; };
 		C157691F2764F20E0086EE07 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		C15769212764F4920086EE07 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C1576923276516EE0086EE07 /* MenuForTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuForTableView.swift; sourceTree = "<group>"; };
 		C1653766272AC2B80009A8E2 /* playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1653769272AC2B80009A8E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C165376B272AC2B80009A8E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		C16704D3273C1EFE00E8E237 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C1576923276516EE0086EE07 /* MenuForTableView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				C1941C81272AD15000C65E52 /* WhiteViewController.swift in Sources */,
 				C165376C272AC2B80009A8E2 /* SceneDelegate.swift in Sources */,
 				C11BD3A8272D33D000F104BF /* ModalViewController.swift in Sources */,
+				C1576924276516EE0086EE07 /* MenuForTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
