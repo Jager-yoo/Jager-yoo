@@ -20,26 +20,40 @@ class TableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
+    // UITableViewController 가 이미 기능구현을 해놨기 때문에 override 되는 것.
+    // 다른 분들은 UIViewController 사용하면서 UITableViewDataSource, Delegate 프로토콜 채택함.
+    // 채택하면서, 프로토콜 요구사항을 준수하기 위한 구현을 하는 것.
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return FoodType.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        let numberOfmenusInFoodType = menu[FoodType.allCases[section]]?.count ?? .zero
+        
+        return numberOfmenusInFoodType
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "customMenuCell", for: indexPath) as? CustomTableViewCell else {
+            return CustomTableViewCell()
+        }
+        
+        let menuName = menu[FoodType.allCases[indexPath.section]]?[indexPath.row].name ?? "메뉴 없음"
+        
+        cell.circleImage.image = UIImage(systemName: "circle")
+        cell.menuLabel.text = menuName
 
         return cell
     }
-    */
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        let sectionTitle = FoodType.allCases[section].rawValue
+        
+        return sectionTitle
+    }
 
     /*
     // Override to support conditional editing of the table view.
