@@ -42,9 +42,11 @@ class TableViewController: UITableViewController {
         }
         
         let menuName = menu[FoodType.allCases[indexPath.section]]?[indexPath.row].name ?? "메뉴 없음"
+        let menuPrice = menu[FoodType.allCases[indexPath.section]]?[indexPath.row].price ?? .zero
         
         cell.circleImage.image = UIImage(systemName: "circle")
-        cell.menuLabel.text = menuName
+        cell.menuNameLabel.text = menuName
+        cell.menuPriceLabel.text = menuPrice.description
 
         return cell
     }

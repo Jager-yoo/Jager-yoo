@@ -9,7 +9,8 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var circleImage: UIImageView!
-    @IBOutlet weak var menuLabel: UILabel!
+    @IBOutlet weak var menuNameLabel: UILabel!
+    @IBOutlet weak var menuPriceLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

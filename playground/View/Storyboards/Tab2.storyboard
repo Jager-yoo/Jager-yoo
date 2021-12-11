@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q67-ps-cSv">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <accessibilityOverrides dynamicTypePreference="2"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -36,7 +37,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="customMenuCell" id="dwp-e9-dzp" customClass="CustomTableViewCell" customModule="playground" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="50" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dwp-e9-dzp" id="vJu-2i-znK">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -49,23 +50,33 @@
                                                 <constraint firstAttribute="width" secondItem="zsz-l7-h5F" secondAttribute="height" multiplier="1:1" id="cpx-Xz-Jkk"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCx-Zx-X3E">
-                                            <rect key="frame" x="90" y="11.5" width="41.5" height="20.5"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="메뉴" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCx-Zx-X3E">
+                                            <rect key="frame" x="90" y="11.5" width="29.5" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가격" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5U-yR-VVS">
+                                            <rect key="frame" x="149.5" y="11.5" width="29.5" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="g5U-yR-VVS" firstAttribute="leading" secondItem="kCx-Zx-X3E" secondAttribute="trailing" constant="30" id="9t6-1d-LXM"/>
                                         <constraint firstItem="zsz-l7-h5F" firstAttribute="leading" secondItem="vJu-2i-znK" secondAttribute="leading" constant="40" id="OgM-pc-XYc"/>
+                                        <constraint firstItem="g5U-yR-VVS" firstAttribute="centerY" secondItem="vJu-2i-znK" secondAttribute="centerY" id="iFU-Qx-cOR"/>
                                         <constraint firstItem="kCx-Zx-X3E" firstAttribute="centerY" secondItem="vJu-2i-znK" secondAttribute="centerY" id="kSg-T8-IfA"/>
                                         <constraint firstItem="zsz-l7-h5F" firstAttribute="centerY" secondItem="vJu-2i-znK" secondAttribute="centerY" id="kT8-Ry-iSa"/>
                                         <constraint firstItem="kCx-Zx-X3E" firstAttribute="leading" secondItem="zsz-l7-h5F" secondAttribute="trailing" constant="20" id="wTU-pg-7IU"/>
+                                        <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="g5U-yR-VVS" secondAttribute="trailing" constant="10" id="x1r-rm-3R9"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="circleImage" destination="zsz-l7-h5F" id="Co9-Ab-jq0"/>
-                                    <outlet property="menuLabel" destination="kCx-Zx-X3E" id="9Ji-4t-BS0"/>
+                                    <outlet property="menuNameLabel" destination="kCx-Zx-X3E" id="kCf-a4-Iee"/>
+                                    <outlet property="menuPriceLabel" destination="g5U-yR-VVS" id="GNF-o6-goX"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
