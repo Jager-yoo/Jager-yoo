@@ -21,7 +21,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="Owr-Vv-z9R" kind="relationship" relationship="viewControllers" id="6fB-Qg-mWZ"/>
-                        <segue destination="4kt-pL-AYn" kind="relationship" relationship="viewControllers" id="jc0-Zk-znL"/>
+                        <segue destination="VJd-M2-Ztu" kind="relationship" relationship="viewControllers" id="2Sg-S7-nFZ"/>
                         <segue destination="LXK-N2-Sq2" kind="relationship" relationship="viewControllers" id="DKv-CR-bqk"/>
                         <segue destination="FSi-Pm-DgU" kind="relationship" relationship="viewControllers" id="5u2-4m-IHd"/>
                     </connections>
@@ -41,32 +41,14 @@
             <point key="canvasLocation" x="-2116" y="877"/>
         </scene>
         <!--Tab2-->
-        <scene sceneID="t7o-UG-psJ">
+        <scene sceneID="T29-8s-8ZY">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rs8-mf-XXR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <viewController id="4kt-pL-AYn" userLabel="Tab2" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Adw-GM-Qh9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tab 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTf-Hd-E3s">
-                                <rect key="frame" x="93" y="388.5" width="228" height="119.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="yga-5V-Y2z"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="dTf-Hd-E3s" firstAttribute="centerY" secondItem="Adw-GM-Qh9" secondAttribute="centerY" id="gJl-Cn-4s0"/>
-                            <constraint firstItem="dTf-Hd-E3s" firstAttribute="centerX" secondItem="Adw-GM-Qh9" secondAttribute="centerX" id="sNe-2O-XuY"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="EXp-zQ-Fzt"/>
-                </viewController>
+                <viewControllerPlaceholder storyboardName="Tab2" id="VJd-M2-Ztu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="1Kc-LT-lsE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k6D-3x-f2v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1510" y="1168"/>
+            <point key="canvasLocation" x="-1606" y="877"/>
         </scene>
         <!--Tab3-->
         <scene sceneID="1qt-0k-gWi">

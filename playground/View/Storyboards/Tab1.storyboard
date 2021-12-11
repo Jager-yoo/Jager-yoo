@@ -13,8 +13,9 @@
         <scene sceneID="EFU-Ev-7bF">
             <objects>
                 <navigationController title="Tab1" automaticallyAdjustsScrollViewInsets="NO" id="lrM-kl-5pa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="more" id="okR-85-kZ8"/>
+                    <tabBarItem key="tabBarItem" title="Navigation" image="square.stack.3d.up.fill" catalog="system" id="myp-1O-Hrj"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="eNb-fG-5ll">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -273,6 +274,7 @@
         <segue reference="1fO-FI-vmL"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="square.stack.3d.up.fill" catalog="system" width="128" height="124"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
