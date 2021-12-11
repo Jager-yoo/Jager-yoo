@@ -56,6 +56,14 @@ class TableViewController: UITableViewController {
         
         return sectionTitle
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) as? CustomTableViewCell else {
+            return
+        }
+        
+        cell.menuPriceLabel.isHidden = false
+    }
 
     /*
     // Override to support conditional editing of the table view.
