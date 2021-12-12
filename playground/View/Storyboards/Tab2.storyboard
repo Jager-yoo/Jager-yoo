@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q67-ps-cSv">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
-    <accessibilityOverrides dynamicTypePreference="2"/>
+    <accessibilityOverrides dynamicTypePreference="4"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,11 +37,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="customMenuCell" id="dwp-e9-dzp" customClass="CustomTableViewCell" customModule="playground" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="customMenuCell" id="dwp-e9-dzp" customClass="CustomTableViewCell" customModule="playground" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dwp-e9-dzp" id="vJu-2i-znK">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="zsz-l7-h5F">
@@ -77,6 +78,7 @@
                                     <outlet property="circleImage" destination="zsz-l7-h5F" id="Co9-Ab-jq0"/>
                                     <outlet property="menuNameLabel" destination="kCx-Zx-X3E" id="kCf-a4-Iee"/>
                                     <outlet property="menuPriceLabel" destination="g5U-yR-VVS" id="GNF-o6-goX"/>
+                                    <segue destination="zCv-q4-TQa" kind="presentation" id="36I-r4-gtY"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -90,6 +92,62 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Znk-cF-eqH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="51" y="118"/>
+        </scene>
+        <!--Menu Detail Modal View Controller-->
+        <scene sceneID="YeT-Ya-k1U">
+            <objects>
+                <viewController id="zCv-q4-TQa" customClass="MenuDetailModalViewController" customModule="playground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yme-US-9Fg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4OU-Yc-4to">
+                                <rect key="frame" x="30" y="80" width="354" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="HZU-5b-7Fb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="메뉴 이름" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxo-ye-3Ba">
+                                <rect key="frame" x="144.5" y="320" width="125" height="41"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00O-Kr-Fb8">
+                                <rect key="frame" x="20" y="761" width="374" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="주문하기"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가격" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bv-mO-q3h">
+                                <rect key="frame" x="183" y="401" width="48.5" height="33.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MPr-Uu-1hM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gxo-ye-3Ba" firstAttribute="centerX" secondItem="Yme-US-9Fg" secondAttribute="centerX" id="00y-Sn-QJD"/>
+                            <constraint firstItem="4OU-Yc-4to" firstAttribute="centerX" secondItem="Yme-US-9Fg" secondAttribute="centerX" id="43U-cv-isr"/>
+                            <constraint firstItem="1bv-mO-q3h" firstAttribute="top" secondItem="gxo-ye-3Ba" secondAttribute="bottom" constant="40" id="AEz-n9-qjf"/>
+                            <constraint firstItem="MPr-Uu-1hM" firstAttribute="trailing" secondItem="4OU-Yc-4to" secondAttribute="trailing" constant="30" id="BwB-UB-deN"/>
+                            <constraint firstItem="4OU-Yc-4to" firstAttribute="leading" secondItem="MPr-Uu-1hM" secondAttribute="leading" constant="30" id="HpP-EY-AUs"/>
+                            <constraint firstItem="gxo-ye-3Ba" firstAttribute="top" secondItem="4OU-Yc-4to" secondAttribute="bottom" constant="40" id="XXa-eo-DUM"/>
+                            <constraint firstItem="4OU-Yc-4to" firstAttribute="top" secondItem="MPr-Uu-1hM" secondAttribute="top" constant="80" id="Zux-O2-qTT"/>
+                            <constraint firstItem="1bv-mO-q3h" firstAttribute="centerX" secondItem="Yme-US-9Fg" secondAttribute="centerX" id="mco-wA-H5Z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="menuImage" destination="4OU-Yc-4to" id="nag-KO-yaR"/>
+                        <outlet property="menuName" destination="gxo-ye-3Ba" id="aGM-uK-Ho7"/>
+                        <outlet property="menuPrice" destination="1bv-mO-q3h" id="aey-nS-GXY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vDu-Gx-dQz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="908.69565217391312" y="117.85714285714285"/>
         </scene>
     </scenes>
     <resources>

@@ -41,8 +41,6 @@ class TableViewController: UITableViewController {
             return CustomTableViewCell()
         }
         
-        cell.accessoryType = .disclosureIndicator
-        
         let menuName = menu[FoodType.allCases[indexPath.section]]?[indexPath.row].name ?? "메뉴 없음"
         let menuPrice = menu[FoodType.allCases[indexPath.section]]?[indexPath.row].price ?? .zero
         
@@ -64,7 +62,10 @@ class TableViewController: UITableViewController {
             return
         }
         
-        //cell.menuPriceLabel.isHidden = false
+        guard let selectedMenuName = cell.menuNameLabel.text,
+              let selectedMenuPrice = cell.menuPriceLabel.text else {
+                  return
+        }
     }
 
     /*
