@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C11BD3A8272D33D000F104BF /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BD3A7272D33D000F104BF /* ModalViewController.swift */; };
 		C157691E2764F1900086EE07 /* Tab2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C157691D2764F1900086EE07 /* Tab2.storyboard */; };
-		C15769202764F20E0086EE07 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C157691F2764F20E0086EE07 /* TableViewController.swift */; };
 		C15769222764F4920086EE07 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15769212764F4920086EE07 /* CustomTableViewCell.swift */; };
 		C1576924276516EE0086EE07 /* MenuForTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1576923276516EE0086EE07 /* MenuForTableView.swift */; };
 		C157692A27651FB10086EE07 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C157692927651FB10086EE07 /* NumberFormatter.swift */; };
@@ -24,6 +23,7 @@
 		C1941C7D272AC7F700C65E52 /* IndigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1941C7C272AC7F700C65E52 /* IndigoViewController.swift */; };
 		C1941C7F272AC83000C65E52 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1941C7E272AC83000C65E52 /* OrangeViewController.swift */; };
 		C1941C81272AD15000C65E52 /* WhiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1941C80272AD15000C65E52 /* WhiteViewController.swift */; };
+		C1DCDF342766569B003B5062 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCDF332766569B003B5062 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		C11BD3A7272D33D000F104BF /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		C157691D2764F1900086EE07 /* Tab2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tab2.storyboard; sourceTree = "<group>"; };
-		C157691F2764F20E0086EE07 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		C15769212764F4920086EE07 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		C1576923276516EE0086EE07 /* MenuForTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuForTableView.swift; sourceTree = "<group>"; };
 		C157692927651FB10086EE07 /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		C1941C7C272AC7F700C65E52 /* IndigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndigoViewController.swift; sourceTree = "<group>"; };
 		C1941C7E272AC83000C65E52 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 		C1941C80272AD15000C65E52 /* WhiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteViewController.swift; sourceTree = "<group>"; };
+		C1DCDF332766569B003B5062 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 		C16704D1273C1E9900E8E237 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C157691F2764F20E0086EE07 /* TableViewController.swift */,
+				C1DCDF332766569B003B5062 /* TableViewController.swift */,
 				C15769212764F4920086EE07 /* CustomTableViewCell.swift */,
 				C157692B2766281D0086EE07 /* MenuDetailModalViewController.swift */,
 				C1941C7E272AC83000C65E52 /* OrangeViewController.swift */,
@@ -264,11 +264,11 @@
 			files = (
 				C1941C7F272AC83000C65E52 /* OrangeViewController.swift in Sources */,
 				C157692A27651FB10086EE07 /* NumberFormatter.swift in Sources */,
-				C15769202764F20E0086EE07 /* TableViewController.swift in Sources */,
 				C15769222764F4920086EE07 /* CustomTableViewCell.swift in Sources */,
 				C165376A272AC2B80009A8E2 /* AppDelegate.swift in Sources */,
 				C1941C7D272AC7F700C65E52 /* IndigoViewController.swift in Sources */,
 				C1941C81272AD15000C65E52 /* WhiteViewController.swift in Sources */,
+				C1DCDF342766569B003B5062 /* TableViewController.swift in Sources */,
 				C165376C272AC2B80009A8E2 /* SceneDelegate.swift in Sources */,
 				C11BD3A8272D33D000F104BF /* ModalViewController.swift in Sources */,
 				C157692C2766281D0086EE07 /* MenuDetailModalViewController.swift in Sources */,
