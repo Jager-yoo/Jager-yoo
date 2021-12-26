@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="여기에 입력해주세요!" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="0Ka-9t-iW0">
-                                <rect key="frame" x="80" y="194" width="254" height="34"/>
+                                <rect key="frame" x="50" y="194" width="314" height="34"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -49,12 +49,12 @@
                         <constraints>
                             <constraint firstItem="xDT-Tg-XVQ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="AMU-t5-P6X"/>
                             <constraint firstItem="xDT-Tg-XVQ" firstAttribute="top" secondItem="ypD-SK-LHT" secondAttribute="bottom" constant="50" id="DB0-et-OZX"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="0Ka-9t-iW0" secondAttribute="trailing" constant="80" id="Pur-jK-AdB"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="0Ka-9t-iW0" secondAttribute="trailing" constant="50" id="Pur-jK-AdB"/>
                             <constraint firstItem="ypD-SK-LHT" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Rix-Ub-Z4A"/>
                             <constraint firstItem="ypD-SK-LHT" firstAttribute="top" secondItem="0Ka-9t-iW0" secondAttribute="bottom" constant="50" id="YMf-on-CgU"/>
                             <constraint firstItem="0Ka-9t-iW0" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="150" id="cOS-Vh-vRq"/>
                             <constraint firstItem="0Ka-9t-iW0" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="pGV-rg-yRd"/>
-                            <constraint firstItem="0Ka-9t-iW0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="80" id="qs4-lo-ImC"/>
+                            <constraint firstItem="0Ka-9t-iW0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="qs4-lo-ImC"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="TextField" image="pencil.and.ellipsis.rectangle" catalog="system" id="irG-tl-LWD"/>
