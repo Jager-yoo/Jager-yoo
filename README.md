@@ -1,6 +1,7 @@
 ## 🐻 [야곰 아카데미](https://www.yagom-academy.kr/) iOS 커리어 스타터 캠프 - 4기 캠퍼 예거입니다!
 
-### 🏕 iOS 캠프 시작: 2021-10-04 ~ 진행 중
+### 🏕 iOS 커리어 스타터 캠프 - 4기
+- 2021-10-04 ~ 진행 중🔥 `6개월`
 
 |No|프로젝트|기간|Step 1|Step 2|Step 3|Step 4|Step 5|Reviewer|
 |--|------|---|------|------|------|------|------|--------|
@@ -11,6 +12,10 @@
 |3|[쥬스 메이커](https://github.com/Jager-yoo/ios-juice-maker)|3주|[PR](https://github.com/yagom-academy/ios-juice-maker/pull/109)|[PR](https://github.com/yagom-academy/ios-juice-maker/pull/122)|[PR](https://github.com/yagom-academy/ios-juice-maker/pull/137)|-|-|[@엘림](https://github.com/lina0322)|
 |2|[묵찌빠 게임](https://github.com/Jager-yoo/ios-rock-paper-scissors)|1주|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/86)|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/94)|-|-|-|[@케인](https://github.com/kane-young)|
 |1|[숫자 야구](https://github.com/Jager-yoo/ios-number-baseball)|1주|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/58)|-|-|-|-|[@타코캣](https://github.com/Ldoy)|
+
+### ⛺️ iOS 코드 스타터 캠프 - 1기
+- 2021-08-02 ~ 2021-09-03 `5주`
+- 수강 후기 👉🏻 ["iOS 개발자가 되기 위한 첫 단추"](https://bicycleforthemind.tistory.com/2)
 
 <!--
 **Jager-yoo/Jager-yoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
