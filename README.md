@@ -14,6 +14,13 @@
 |2|[묵찌빠 게임](https://github.com/Jager-yoo/ios-rock-paper-scissors)|1주|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/86)|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/94)|-|-|-|[@케인](https://github.com/kane-young)|
 |1|[숫자 야구](https://github.com/Jager-yoo/ios-number-baseball)|1주|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/58)|-|-|-|-|[@타코캣](https://github.com/Ldoy)|
 
+### 👨🏻‍💻 선배 리뷰어 활동
+- 2022-02-07 ~ 진행 중🔥 `2주`
+
+|No|프로젝트|기간|Step 1|Step 2|Reviewee (5기)|
+|--|------|---|------|------|--------|
+|1|숫자 야구|1주|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/73)|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/85)|그럼피, 마리솔|
+
 ### ⛺️ iOS 코드 스타터 캠프 - 1기
 - 2021-08-02 ~ 2021-09-03 `5주`
 - 수강 후기 👉🏻 ["iOS 개발자가 되기 위한 첫 단추"](https://bicycleforthemind.tistory.com/2)
