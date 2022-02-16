@@ -5,7 +5,7 @@
 
 |No|프로젝트|기간|Step 1|Step 2|Step 3|Step 4|Step 5|Reviewer|
 |--|------|---|------|------|------|------|------|--------|
-|8|[동기화 메모장](https://github.com/Jager-yoo/ios-cloud-notes)|3주|[PR](https://github.com/yagom-academy/ios-cloud-notes/pull/79)|-|-|-|-|[@코리](https://github.com/corykim0829)|
+|8|[동기화 메모장](https://github.com/Jager-yoo/ios-cloud-notes)|3주|[PR](https://github.com/yagom-academy/ios-cloud-notes/pull/79)|[PR](https://github.com/yagom-academy/ios-cloud-notes/pull/87)|-|-|-|[@코리](https://github.com/corykim0829)|
 |7|[오픈 마켓](https://github.com/Jager-yoo/ios-open-market)|4주|[PR](https://github.com/yagom-academy/ios-open-market/pull/89)|[PR](https://github.com/yagom-academy/ios-open-market/pull/101)|[PR](https://github.com/yagom-academy/ios-open-market/pull/121)|-|-|[@찰리](https://github.com/kcharliek)|
 |6|[은행 창구 매니저](https://github.com/Jager-yoo/ios-bank-manager)|2주|[PR](https://github.com/yagom-academy/ios-bank-manager/pull/108)|[PR](https://github.com/yagom-academy/ios-bank-manager/pull/116)|[PR](https://github.com/yagom-academy/ios-bank-manager/pull/127)|[PR](https://github.com/yagom-academy/ios-bank-manager/pull/143)|-|[@찌루루](https://github.com/jae57)|
 |5|[만국 박람회](https://github.com/Jager-yoo/ios-exposition-universelle)|2주|[PR](https://github.com/yagom-academy/ios-exposition-universelle/pull/105)|[PR](https://github.com/yagom-academy/ios-exposition-universelle/pull/123)|[PR](https://github.com/yagom-academy/ios-exposition-universelle/pull/128)|-|-|[@콘](https://github.com/protocorn93)|
