@@ -19,7 +19,7 @@
 
 |No|프로젝트|기간|Step 1|Step 2|Reviewee (5기)|
 |--|------|---|------|------|--------|
-|2|묵찌빠 게임|1주|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/107)|-|링고, 우롱차|
+|2|묵찌빠 게임|1주|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/107)|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/122)|링고, 우롱차|
 |1|숫자 야구|1주|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/73)|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/85)|그럼피, 마리솔|
 
 ### ⛺️ iOS 코드 스타터 캠프 - 1기
