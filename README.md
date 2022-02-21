@@ -15,7 +15,7 @@
 |1|[숫자 야구](https://github.com/Jager-yoo/ios-number-baseball)|1주|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/58)|-|-|-|-|[@타코캣](https://github.com/Ldoy)|
 
 ### 👨🏻‍💻 선배 리뷰어 활동
-- 2022-02-07 ~ 진행 중🔥 `2주`
+- 2022-02-07 ~ 2022-02-20 `2주`
 
 |No|프로젝트|기간|Step 1|Step 2|Reviewee (5기)|
 |--|------|---|------|------|--------|
