@@ -2,6 +2,8 @@
 
 ### 🏕 iOS 커리어 스타터 캠프 - 4기
 - 2021-10-04 ~ 2022-04-01 `6개월`
+<details>
+<summary>👉🏻 프로젝트 전체 보기</summary>
 
 |No|프로젝트|기간|Step 1|Step 2|Step 3|Step 4|Step 5|Reviewer|
 |--|------|---|------|------|------|------|------|--------|
@@ -14,6 +16,8 @@
 |3|[쥬스 메이커](https://github.com/Jager-yoo/ios-juice-maker)|3주|[PR](https://github.com/yagom-academy/ios-juice-maker/pull/109)|[PR](https://github.com/yagom-academy/ios-juice-maker/pull/122)|[PR](https://github.com/yagom-academy/ios-juice-maker/pull/137)|-|-|[@엘림](https://github.com/lina0322)|
 |2|[묵찌빠 게임](https://github.com/Jager-yoo/ios-rock-paper-scissors)|1주|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/86)|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/94)|-|-|-|[@케인](https://github.com/kane-young)|
 |1|[숫자 야구](https://github.com/Jager-yoo/ios-number-baseball)|1주|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/58)|-|-|-|-|[@타코캣](https://github.com/Ldoy)|
+
+</details>
 
 ### 👨🏻‍💻 선배 리뷰어 활동
 - 2022-02-07 ~ 2022-02-20 `2주`
