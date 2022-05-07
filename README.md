@@ -1,48 +1,32 @@
-## 🐻 [야곰 아카데미](https://www.yagom-academy.kr/) iOS 커리어 스타터 캠프 - 4기 캠퍼 예거입니다!
+## -- About me
 
-### 🏕 iOS 커리어 스타터 캠프 - 4기
+#### 😄 주니어 iOS 개발자 유재호입니다.
+
+- `UIKit`, `SwiftUI` 프레임워크 사용한 iOS 개발이 가능합니다.
+- 코드 리뷰를 받는 것, 하는 것 모두 좋아합니다.
+  - 야곰 아카데미에서 Swift 입문자 대상의 코드 리뷰어로 꾸준히 활동하고 있습니다. [리뷰 예시](https://github.com/yagom-academy/swift-starter-week3/pull/100)
+- 지난 몇 년간 HR(인사) 직무로 근무했습니다. 특히 Tech Recruiting, Developer Relations 경험이 많습니다.
+
+
+## -- Education
+
+#### 🧸 야곰 아카데미 [iOS 커리어 스타터 캠프](https://www.yagom-academy.kr/camp/career-starter) - 4기 수료
+
 - 2021-10-04 ~ 2022-04-01 `6개월`
-<details>
-<summary>👉🏻 프로젝트 전체 보기</summary>
+- Swift, UIKit, HIG, Git/GitHub 학습
+- 현업 개발자와 `PR` 을 통해 코드 리뷰를 주고 받으며 9번의 프로젝트 진행 (with 페어 프로그래밍)
+- 🎨 [프로젝트 전체 보기](https://github.com/Jager-yoo/Jager-yoo/blob/main/Projects.md)
 
-|No|프로젝트|기간|Step 1|Step 2|Step 3|Step 4|Step 5|Reviewer|
-|--|------|---|------|------|------|------|------|--------|
-|9|[프로젝트 관리 앱](https://github.com/Jager-yoo/ios-project-manager)|4주|[PR](https://github.com/yagom-academy/ios-project-manager/pull/71)|[PR](https://github.com/yagom-academy/ios-project-manager/pull/81)|[PR](https://github.com/yagom-academy/ios-project-manager/pull/88)|-|-|[@그린](https://github.com/GREENOVER)|
-|8|[동기화 메모장](https://github.com/Jager-yoo/ios-cloud-notes)|3주|[PR](https://github.com/yagom-academy/ios-cloud-notes/pull/79)|[PR](https://github.com/yagom-academy/ios-cloud-notes/pull/87)|[PR](https://github.com/yagom-academy/ios-cloud-notes/pull/95)|[PR](https://github.com/yagom-academy/ios-cloud-notes/pull/103)|-|[@코리](https://github.com/corykim0829)|
-|7|[오픈 마켓](https://github.com/Jager-yoo/ios-open-market)|4주|[PR](https://github.com/yagom-academy/ios-open-market/pull/89)|[PR](https://github.com/yagom-academy/ios-open-market/pull/101)|[PR](https://github.com/yagom-academy/ios-open-market/pull/121)|-|-|[@찰리](https://github.com/kcharliek)|
-|6|[은행 창구 매니저](https://github.com/Jager-yoo/ios-bank-manager)|2주|[PR](https://github.com/yagom-academy/ios-bank-manager/pull/108)|[PR](https://github.com/yagom-academy/ios-bank-manager/pull/116)|[PR](https://github.com/yagom-academy/ios-bank-manager/pull/127)|[PR](https://github.com/yagom-academy/ios-bank-manager/pull/143)|-|[@찌루루](https://github.com/jae57)|
-|5|[만국 박람회](https://github.com/Jager-yoo/ios-exposition-universelle)|2주|[PR](https://github.com/yagom-academy/ios-exposition-universelle/pull/105)|[PR](https://github.com/yagom-academy/ios-exposition-universelle/pull/123)|[PR](https://github.com/yagom-academy/ios-exposition-universelle/pull/128)|-|-|[@콘](https://github.com/protocorn93)|
-|4|[계산기](https://github.com/Jager-yoo/ios-calculator-app)|3주|[PR](https://github.com/yagom-academy/ios-calculator-app/pull/72)|[PR](https://github.com/yagom-academy/ios-calculator-app/pull/109)|[PR](https://github.com/yagom-academy/ios-calculator-app/pull/157/)|[PR](https://github.com/yagom-academy/ios-calculator-app/pull/142)|-|[@흰](https://github.com/daheenallwhite)|
-|3|[쥬스 메이커](https://github.com/Jager-yoo/ios-juice-maker)|3주|[PR](https://github.com/yagom-academy/ios-juice-maker/pull/109)|[PR](https://github.com/yagom-academy/ios-juice-maker/pull/122)|[PR](https://github.com/yagom-academy/ios-juice-maker/pull/137)|-|-|[@엘림](https://github.com/lina0322)|
-|2|[묵찌빠 게임](https://github.com/Jager-yoo/ios-rock-paper-scissors)|1주|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/86)|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/94)|-|-|-|[@케인](https://github.com/kane-young)|
-|1|[숫자 야구](https://github.com/Jager-yoo/ios-number-baseball)|1주|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/58)|-|-|-|-|[@타코캣](https://github.com/Ldoy)|
+#### 🧸 야곰 아카데미 [iOS 코드 스타터 캠프](https://www.yagom-academy.kr/camp/code-starter) - 1기 수료
 
-</details>
-
-### 👨🏻‍💻 선배 리뷰어 활동
-- 2022-02-07 ~ 2022-02-20 `2주`
-
-|No|프로젝트|기간|Step 1|Step 2|Reviewee (5기)|
-|--|------|---|------|------|--------|
-|2|묵찌빠 게임|1주|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/107)|[PR](https://github.com/yagom-academy/ios-rock-paper-scissors/pull/122)|링고, 우롱차|
-|1|숫자 야구|1주|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/73)|[PR](https://github.com/yagom-academy/ios-number-baseball/pull/85)|그럼피, 마리솔|
-
-### ⛺️ iOS 코드 스타터 캠프 - 1기
 - 2021-08-02 ~ 2021-09-03 `5주`
+- Swift 기초 학습
 - 수강 후기 👉🏻 ["iOS 개발자가 되기 위한 첫 단추"](https://bicycleforthemind.tistory.com/2)
 
-<!--
-**Jager-yoo/Jager-yoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### 🎓 고려대학교 졸업 ('17)
 
-Here are some ideas to get you started:
+- 이학사 / 경제학사(이중전공)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br>
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJager-yoo&count_bg=%2379C83D&title_bg=%23555555&icon=swift.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
