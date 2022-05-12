@@ -13,7 +13,7 @@
 #### 🧸 야곰 아카데미 [iOS 커리어 스타터 캠프](https://www.yagom-academy.kr/camp/career-starter) - 4기 수료
 
 - 2021-10-04 ~ 2022-04-01 `6개월`
-- Swift, UIKit, HIG, Git/GitHub 학습
+- Swift, UIKit, SwiftUI, HIG, Git/GitHub 학습
 - 현업 개발자와 `PR` 을 통해 코드 리뷰를 주고 받으며 9번의 프로젝트 진행 (with 페어 프로그래밍)
 - 🎨 [프로젝트 전체 보기](https://github.com/Jager-yoo/Jager-yoo/blob/main/Projects.md)
 
