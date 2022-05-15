@@ -4,6 +4,7 @@
 
 - `UIKit`, `SwiftUI` 프레임워크 사용한 iOS 개발이 가능합니다.
 - 코드 리뷰를 받는 것, 하는 것 모두 좋아합니다.
+  - 오픈 소스인 애플의 [Swift 언어 Contribution 경험](https://github.com/apple/swift/pulls?q=author%3AJager-yoo)이 여러 번 있습니다.
   - 야곰 아카데미에서 Swift 입문자 대상의 코드 리뷰어로 꾸준히 활동하고 있습니다. [리뷰 예시](https://github.com/yagom-academy/swift-starter-week3/pull/100)
 - 지난 몇 년간 HR(인사) 직무로 근무했습니다. 특히 Tech Recruiting, Developer Relations 경험이 많습니다.
 
