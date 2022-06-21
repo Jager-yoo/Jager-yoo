@@ -10,7 +10,7 @@
 
 ## -- Career
 
-#### 🏅 [플리토(Flitto)](flitto.com) - iOS Developer
+#### 🏅 [플리토(Flitto)](https://www.flitto.com/language/translation/text) - iOS Developer
 
 - 2022-06-20 ~ 재직 중
 - SwiftUI, MVI, TCA
