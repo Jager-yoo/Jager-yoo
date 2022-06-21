@@ -8,6 +8,12 @@
   - 야곰 아카데미에서 Swift 입문자 대상의 코드 리뷰어로 꾸준히 활동하고 있습니다. [리뷰 예시](https://github.com/yagom-academy/swift-starter-week3/pull/100)
 - 지난 몇 년간 HR(인사) 직무로 근무했습니다. 특히 Tech Recruiting, Developer Relations 경험이 많습니다.
 
+## -- Career
+
+#### 🏅 [플리토(Flitto)](flitto.com) - iOS Developer
+
+- 2022-06-20 ~ 재직 중
+- SwiftUI, MVI, TCA
 
 ## -- Education
 
