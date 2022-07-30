@@ -1,38 +1,29 @@
-## -- About me
+### Currently working at Flitto Inc.
+- Flitto is a language translation platform that launched its app in 2012.
+- I'm working on a **complete rebuild** of the Flitto app using `SwiftUI` and [`Composable Architecture(TCA)`](https://github.com/pointfreeco/swift-composable-architecture) along with 3 iOS teammates. [(my Flitto github)](https://github.com/jaeho-flitto)
 
-#### 😄 주니어 iOS 개발자 유재호입니다.
+### About Me
+- detailed, meticulous, considerate, good communication skills.
+- enjoy performing and receiving code reviews. [review case](https://github.com/yagom-academy/swift-starter-week3/pull/100)
+- love Swift Community and Open-source
+  - 🎖 Contributor of [apple/swift](https://github.com/apple/swift/pulls?q=author%3AJager-yoo)
+  - 🎖 Contributor of [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture/pulls?q=author%3AJager-yoo)
+- have 5 years of HR experience, mainly in Tech Recruiting and Developer Relations.
 
-- `UIKit`, `SwiftUI` 프레임워크 사용한 iOS 개발이 가능합니다.
-- 코드 리뷰를 받는 것, 하는 것 모두 좋아합니다.
-  - 오픈 소스인 애플의 [Swift 언어 Contribution 경험](https://github.com/apple/swift/pulls?q=author%3AJager-yoo)이 여러 번 있습니다.
-  - 야곰 아카데미에서 Swift 입문자 대상의 코드 리뷰어로 꾸준히 활동하고 있습니다. [리뷰 예시](https://github.com/yagom-academy/swift-starter-week3/pull/100)
-- 지난 몇 년간 HR(인사) 직무로 근무했습니다. 특히 Tech Recruiting, Developer Relations 경험이 많습니다.
+### Education
 
-## -- Career
+- Yagom Academy [iOS Career Camp](https://www.yagom-academy.kr/camp/career-starter)
+  - 2021-10-04 ~ 2022-04-01 (6 months)
+  - studied Swift, UIKit, SwiftUI, HIG, git/github
+  - completed 9 projects with pair programming and code reviews.
+  - 🎨 [See all projects](https://github.com/Jager-yoo/Jager-yoo/blob/main/Projects.md)
 
-#### 🏅 [플리토(Flitto)](https://www.flitto.com/language/translation/text) - iOS Developer
+- Yagom Academy [iOS Starter Camp](https://www.yagom-academy.kr/camp/code-starter)
+  - 2021-08-02 ~ 2021-09-03 (5 weeks)
+  - studied basic Swift
 
-- 2022-06-20 ~ 재직 중
-- SwiftUI, MVI, TCA
-
-## -- Education
-
-#### 🧸 야곰 아카데미 [iOS 커리어 스타터 캠프](https://www.yagom-academy.kr/camp/career-starter) - 4기 수료
-
-- 2021-10-04 ~ 2022-04-01 `6개월`
-- Swift, UIKit, SwiftUI, HIG, Git/GitHub 학습
-- 현업 개발자와 `PR` 을 통해 코드 리뷰를 주고 받으며 9번의 프로젝트 진행 (with 페어 프로그래밍)
-- 🎨 [프로젝트 전체 보기](https://github.com/Jager-yoo/Jager-yoo/blob/main/Projects.md)
-
-#### 🧸 야곰 아카데미 [iOS 코드 스타터 캠프](https://www.yagom-academy.kr/camp/code-starter) - 1기 수료
-
-- 2021-08-02 ~ 2021-09-03 `5주`
-- Swift 기초 학습
-- 수강 후기 👉🏻 ["iOS 개발자가 되기 위한 첫 단추"](https://bicycleforthemind.tistory.com/2)
-
-#### 🎓 고려대학교 졸업 ('17)
-
-- 이학사 / 경제학사(이중전공)
+- 🎓 Korea Univ. ('17)
+  - BS in Science & Economics (double major)
 
 <br>
 
