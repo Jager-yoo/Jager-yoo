@@ -1,13 +1,13 @@
-### Currently working at Flitto Inc.
+### iOS Developer at Flitto Inc.
 - Flitto is a language translation platform that launched its app in 2012.
-- I'm working on a **complete rebuild** of the Flitto app using `SwiftUI` and [`Composable Architecture(TCA)`](https://github.com/pointfreeco/swift-composable-architecture) along with 3 iOS teammates. [(my Flitto github)](https://github.com/jaeho-flitto)
+- I'm currently working on a **complete rebuild** of the Flitto app using `SwiftUI` and [`Composable Architecture(TCA)`](https://github.com/pointfreeco/swift-composable-architecture) along with 3 iOS teammates. [(my Flitto github)](https://github.com/jaeho-flitto)
 
 ### About Me
 - detailed, meticulous, considerate, good communication skills.
-- enjoy performing and receiving code reviews. [review case](https://github.com/yagom-academy/swift-starter-week3/pull/100)
-- love Swift Community and Open-source
+- love Swift community and Open-source
   - 🎖 Contributor of [apple/swift](https://github.com/apple/swift/pulls?q=author%3AJager-yoo)
   - 🎖 Contributor of [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture/pulls?q=author%3AJager-yoo)
+- enjoy performing and receiving code reviews. [review case](https://github.com/yagom-academy/swift-starter-week3/pull/100)
 - have 5 years of HR experience, mainly in Tech Recruiting and Developer Relations.
 
 ### Education
