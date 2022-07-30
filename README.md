@@ -1,13 +1,17 @@
 ### iOS Developer at Flitto Inc.
+
 - Flitto is a language translation platform that launched its app in 2012.
+
 - I'm currently working on a **complete rebuild** of the Flitto app using `SwiftUI` and [`Composable Architecture(TCA)`](https://github.com/pointfreeco/swift-composable-architecture) along with 3 iOS teammates. [(my Flitto github)](https://github.com/jaeho-flitto)
 
 ### About Me
+
 - detailed, meticulous, considerate, good communication skills.
+
 - love Swift community and Open-source
   - 🎖 Contributor of [apple/swift](https://github.com/apple/swift/pulls?q=author%3AJager-yoo)
   - 🎖 Contributor of [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture/pulls?q=author%3AJager-yoo)
-- enjoy performing and receiving code reviews. [review case](https://github.com/yagom-academy/swift-starter-week3/pull/100)
+- enjoy performing and receiving code reviews. [(review case)](https://github.com/yagom-academy/swift-starter-week3/pull/100)
 - have 5 years of HR experience, mainly in Tech Recruiting and Developer Relations.
 
 ### Education
@@ -17,11 +21,11 @@
   - studied Swift, UIKit, SwiftUI, HIG, git/github
   - completed 9 projects with pair programming and code reviews.
   - 🎨 [See all projects](https://github.com/Jager-yoo/Jager-yoo/blob/main/Projects.md)
-
+  
 - Yagom Academy [iOS Starter Camp](https://www.yagom-academy.kr/camp/code-starter)
   - 2021-08-02 ~ 2021-09-03 (5 weeks)
   - studied basic Swift
-
+  
 - 🎓 Korea Univ. ('17)
   - BS in Science & Economics (double major)
 
