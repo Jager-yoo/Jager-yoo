@@ -13,7 +13,7 @@
 - love Swift community and Open-source
   - 🎖 Contributor of [apple/swift](https://github.com/apple/swift/pulls?q=author%3AJager-yoo), [apple/swift-evolution](https://github.com/apple/swift-evolution/pulls?q=author%3AJager-yoo)
   - 🎖 Contributor of [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture/pulls?q=author%3AJager-yoo)
-  - 🎖 Contributor of [airbnb/swift](https://github.com/airbnb/swift/pulls?q=author%3AJager-yoo)
+  - 🎖 Contributor of [airbnb/swift](https://github.com/airbnb/swift/pulls?q=author%3AJager-yoo), [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios/pulls?q=author%3AJager-yoo)
 - enjoy performing and receiving code reviews. [(review case)](https://github.com/yagom-academy/swift-starter-week3/pull/100)
 - have 5 years of HR experience, mainly in Tech Recruiting and Developer Relations.
 
