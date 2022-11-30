@@ -9,8 +9,8 @@
 - detailed, meticulous, considerate, good communication skills.
 
 - enjoy side projects.
-  - 🎹 [Chopinate!](https://apps.apple.com/us/app/chopinate/id6443471411) - App for practicing reading sheet music
-  - 🚇 [영차열차](https://apps.apple.com/kr/app/%EC%98%81%EC%B0%A8%EC%97%B4%EC%B0%A8/id6444733431) - App for checking real-time subway arrival information for Seoul citizens
+  - 🎹 [Chopinate!](https://apps.apple.com/us/app/chopinate/id6443471411)("쇼피네이트!") - App for practicing reading sheet music
+  - 🚇 [영차열차](https://apps.apple.com/kr/app/%EC%98%81%EC%B0%A8%EC%97%B4%EC%B0%A8/id6444733431) - App for checking real-time subway arrival information for Seoul commuters
 - love Swift community and Open-source
   - 🎖 Contributor of [apple/swift](https://github.com/apple/swift/pulls?q=author%3AJager-yoo), [apple/swift-evolution](https://github.com/apple/swift-evolution/pulls?q=author%3AJager-yoo)
   - 🎖 Contributor of [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture/pulls?q=author%3AJager-yoo), [pointfreeco/swiftui-navigation](https://github.com/pointfreeco/swiftui-navigation/pulls?q=author%3AJager-yoo)
