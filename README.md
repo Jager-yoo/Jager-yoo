@@ -13,7 +13,7 @@
   - 🚇 [영차열차](https://apps.apple.com/kr/app/%EC%98%81%EC%B0%A8%EC%97%B4%EC%B0%A8/id6444733431) - App for checking real-time subway arrival information for Seoul commuters
 - love Swift community and Open-source
   - 🎖 Contributor of [apple/swift](https://github.com/apple/swift/pulls?q=author%3AJager-yoo), [apple/swift-evolution](https://github.com/apple/swift-evolution/pulls?q=author%3AJager-yoo)
-  - 🎖 Contributor of [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture/pulls?q=author%3AJager-yoo), [pointfreeco/swiftui-navigation](https://github.com/pointfreeco/swiftui-navigation/pulls?q=author%3AJager-yoo)
+  - 🎖 Contributor of [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture/pulls?q=author%3AJager-yoo), [pointfreeco/swiftui-navigation](https://github.com/pointfreeco/swiftui-navigation/pulls?q=author%3AJager-yoo), [pointfreeco/pointfreeco](https://github.com/pointfreeco/pointfreeco/pulls?q=author%3AJager-yoo)
   - 🎖 Contributor of [airbnb/swift](https://github.com/airbnb/swift/pulls?q=author%3AJager-yoo), [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios/pulls?q=author%3AJager-yoo)
 - enjoy performing and receiving code reviews. [(review case)](https://github.com/yagom-academy/swift-starter-week3/pull/100)
 - have 5 years of HR experience, mainly in Tech Recruiting and Developer Relations.
