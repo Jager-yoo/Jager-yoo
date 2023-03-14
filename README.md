@@ -1,8 +1,14 @@
-### iOS Developer at Flitto Inc.
+## iOS Engineer at Hyundai Motor Company (2023.03 ~)
+
+- working on next-generation Connected Car Service Applications that integrate with Hyundai, Kia, and Genesis brands to provide global customers with improved connectivity.
+
+- using `SwiftUI` and [`The Composable Architecture(TCA)`](https://github.com/pointfreeco/swift-composable-architecture), etc.
+
+## iOS Developer at Flitto (2022.06 ~ 2023.02)
 
 - Flitto("플리토") is a language translation platform that launched its app in 2012.
 
-- I'm currently working on a **complete rebuild** of the Flitto app using `SwiftUI` and [`Composable Architecture(TCA)`](https://github.com/pointfreeco/swift-composable-architecture) along with 3 iOS teammates. [(my Flitto github)](https://github.com/jaeho-flitto)
+- worked on a **complete rebuild** of the Flitto app using `SwiftUI` and [`The Composable Architecture(TCA)`](https://github.com/pointfreeco/swift-composable-architecture) along with 3 iOS teammates. [(my Flitto github)](https://github.com/jaeho-flitto)
 
 ### About Me
 
