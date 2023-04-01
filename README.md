@@ -1,4 +1,4 @@
-## iOS Engineer at Hyundai Motor Company (2023.03 ~)
+## iOS Engineer at Hyundai Motor Group (2023.03 ~)
 
 - working on next-generation Connected Car Service Applications that integrate with Hyundai, Kia, and Genesis brands to provide global customers with improved connectivity.
 
