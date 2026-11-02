@@ -1,24 +1,39 @@
-## iOS Engineer at Hyundai Motor Group (2023.03 ~ Present)
+[LinkedIn](https://www.linkedin.com/in/jageryoo) · [Medium](https://medium.com/@Jager-yoo)
 
-- Working on next-generation Connected Car Service Applications that integrate with Hyundai, Kia, and Genesis brands to provide global customers with improved connectivity.
-- Using `SwiftUI` and [`The Composable Architecture(TCA)`](https://github.com/pointfreeco/swift-composable-architecture), etc.
-- Focusing on Extensions like Widget, watchOS, App Intents.
+### Hi, I'm Jaeho
 
-## iOS Developer at Flitto (2022.06 ~ 2023.02)
+Software engineer at Hyundai Motor Company, building connected-car software on both sides of the car: in-vehicle infotainment (IVI) on Android Automotive OS, and mobile apps on iOS.
 
-- Flitto("플리토") is a language translation platform that launched its app in 2012.
-- Worked on a **complete rebuild** of the Flitto app using `SwiftUI` and [`The Composable Architecture(TCA)`](https://github.com/pointfreeco/swift-composable-architecture) along with 3 iOS teammates. [(my Flitto github)](https://github.com/jaeho-flitto)
+- Now
+  - Building a vehicle-to-cloud telemetry application on AAOS
+  - Working AI-native with spec-driven development
+- Before
+  - 4 years of iOS, including widgets, a watchOS app, and App Intents for Hyundai · Kia · Genesis
+  - A from-scratch SwiftUI + TCA rebuild at Flitto
+- Before that
+  - 5 years recruiting engineers and coaching bootcamp grads, until I wanted to build things myself
 
-### About Me
+### Side Projects
 
-- Detail-oriented, meticulous, considerate, with good communication skills.
-- Enjoy side projects.
-  - 🔥 [Soul Stone](https://apps.apple.com/us/app/soul-stone-ai-image-detector/id6747886088) - App for detecting AI/Deepfake images
-  - 🎹 [Chopinate!](https://apps.apple.com/us/app/chopinate/id6443471411)("쇼피네이트!") - App for practicing reading sheet music
-  - 🚇 [영차열차](https://apps.apple.com/kr/app/%EC%98%81%EC%B0%A8%EC%97%B4%EC%B0%A8-%EC%88%9C%EC%8B%9D%EA%B0%84%EC%97%90-%ED%99%95%EC%9D%B8%ED%95%98%EB%8A%94-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%A7%80%ED%95%98%EC%B2%A0/id6444733431) - App for checking real-time subway arrival information for Seoul commuters
-- Love Swift community and open source
-  - 🎖 Contributor of [apple/swift](https://github.com/apple/swift/pulls?q=author%3AJager-yoo), [apple/swift-evolution](https://github.com/apple/swift-evolution/pulls?q=author%3AJager-yoo)
-  - 🎖 Contributor of [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture/pulls?q=author%3AJager-yoo), [pointfreeco/swiftui-navigation](https://github.com/pointfreeco/swiftui-navigation/pulls?q=author%3AJager-yoo), [pointfreeco/pointfreeco](https://github.com/pointfreeco/pointfreeco/pulls?q=author%3AJager-yoo)
-  - 🎖 Contributor of [airbnb/swift](https://github.com/airbnb/swift/pulls?q=author%3AJager-yoo), [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios/pulls?q=author%3AJager-yoo)
-  - 🧰 Former maintainer of [interactord/LinkNavigator](https://github.com/interactord/LinkNavigator)
-- Have 5 years of HR experience, mainly in Tech Recruiting and Developer Relations.
+<p>
+<img align="left" width="62" hspace="6" src="assets/marine-survival.png" alt="Marine Survival"><a href="https://marine-survival.vercel.app">Marine Survival</a> · since Oct 2026<br>Co-op survival shooter that runs in the browser<br>Built with three.js and WebRTC<br clear="left">
+<img align="left" width="62" hspace="6" src="assets/soul-stone.png" alt="Soul Stone"><a href="https://apps.apple.com/us/app/soul-stone-ai-image-detector/id6747886088">Soul Stone</a> · since Sep 2025<br>iOS app that detects AI-generated and deepfake images<br>Funded by a U.S. State Department grant<br clear="left">
+<img align="left" width="62" hspace="6" src="assets/chopinate.png" alt="Chopinate!"><a href="https://apps.apple.com/us/app/chopinate-read-piano-notes/id6443471411">Chopinate!</a> · since Sep 2022<br>iOS app with short games for learning to read piano sheet music<br>Compete with players worldwide and unlock achievements<br clear="left">
+</p>
+
+### Talks & Mentoring
+
+- Tech Talk @ U.S. Embassy Seoul · Nov 2026
+  - How a Developer's Work Is Changing, and How to Adapt
+- Conference with Professionals @ Apple Developer Academy (POSTECH) · Aug 2025
+  - Career talk for student developers
+- AI Seoul Hackathon, hosted by Minerva University students · Apr 2025
+  - Tech mentor and judge ([event page](https://luma.com/8kksnd3m))
+- Let's Swift 2024 · Nov 2024
+  - [Beyond the App: Interactive Widgets](https://www.youtube.com/watch?v=AK0byeN90Sg) ([sample code](https://github.com/Jager-yoo/LetsSwiftWidget))
+
+### Open Source Contributions
+
+- Swift: [swift](https://github.com/swiftlang/swift/pulls?q=author%3AJager-yoo+is%3Amerged), [swift-evolution](https://github.com/swiftlang/swift-evolution/pulls?q=author%3AJager-yoo+is%3Amerged)
+- Point-Free: [swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture/pulls?q=author%3AJager-yoo+is%3Amerged), [swift-navigation](https://github.com/pointfreeco/swift-navigation/pulls?q=author%3AJager-yoo+is%3Amerged)
+- Airbnb: [swift](https://github.com/airbnb/swift/pulls?q=author%3AJager-yoo+is%3Amerged), [lottie-ios](https://github.com/airbnb/lottie-ios/pulls?q=author%3AJager-yoo+is%3Amerged)
